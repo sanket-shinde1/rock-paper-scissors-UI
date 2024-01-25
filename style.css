@@ -45,3 +45,10 @@ h1{
 .redText, #computerScoreDisplay{
     color: hsl(0, 84%, 60%);
 }
+
+.reset button{
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+    height: 40px;
+}

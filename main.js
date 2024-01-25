@@ -33,6 +33,7 @@ function playGame(playerChoice){
     display(result,resultDisplay);
 }
 
+
 function display(result,resultDisplay){
 
     switch(result){
@@ -48,6 +49,15 @@ function display(result,resultDisplay){
             computerScoreDisplay.textContent = computerScore;
             break;
     }
+}
+
+function reset(){
+
+    playerScoreDisplay.textContent = 0;
+    computerScoreDisplay.textContent = 0;
+    resultDisplay.textContent = " "
+    playerScore=0;
+    computerScore=0;
 }
 
 
